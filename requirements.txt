@@ -28,7 +28,7 @@ pyparsing==2.3.0
 pyquery==1.4.0
 python-wordpress-xmlrpc==2.3
 pytz==2018.7
-requests==2.20.1
+requests==2.31.0
 requests-oauthlib==1.0.0
 simplejson==3.16.0
 six==1.11.0
