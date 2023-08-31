@@ -68,3 +68,4 @@ dist/
 .DS_Store
 /source/trace/coverdir1/main.cover
 /source/trace/coverdir1/recurse.cover
+source/_exts/__pycache__/
