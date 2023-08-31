@@ -4,13 +4,9 @@ build:
   tools:
     python: "3.7"
   commands:
-    - paver html
-python:
-  install:
-    - requirements: requirements.txt
-    - method: pip
-      path: .
+    - pip install requirements.txt
+    - paver
 sphinx:
-  builder: dirhtml
+  builder: html
   configuration: docs/conf.py
   fail_on_warning: true
