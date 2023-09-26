@@ -1,0 +1,5 @@
+sphnix-build -b html source build
+
+sphinx-build -b latex -d ./build/doctrees -c ./source ./source ./build/latex
+
+sphinx-build -b html -d ./build/doctrees -c ./source -W ./source ./build/html
