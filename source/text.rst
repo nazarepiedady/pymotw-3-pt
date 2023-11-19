@@ -1,36 +1,16 @@
-======
- Text
-======
+=======
+ Texto
+=======
 
-The ``str`` class is the most obvious text processing tool
-available to Python programmers, but there are plenty of other tools
-in the standard library to make advanced text manipulation simple.
+A classe ``str`` é a ferramenta de processamento de texto mais óbvia disponível aos programadores da Python, mas existem muitas outras ferramentas na biblioteca padrão para tornar a manipulação de texto avançada simples.
 
-Programs may use ``string.Template`` as a simple way to
-parameterize strings beyond the features of ``str`` objects.
-While not as feature-rich as templates defined by many of the web
-frameworks or extension modules available from the Python Package
-Index, ``string.Template`` is a good middle ground for
-user-modifiable templates in which dynamic values need to be inserted
-into otherwise static text.
+Os programas podem usar ``string.Template`` como uma maneira simples de parametrizar sequências de caracteres para além das funcionalidades dos objetos da ``str``. Apesar de não ser tão rico em funcionalidades quanto os modelos definidos por muitas das abstrações da Web ou módulos de extensão disponíveis a partir do Índice de Pacote de Python, ``string.Template`` é um bom meio-termo para os modelos modificáveis pelo utilizador, nos quais os valores dinâmicos precisam ser inseridos de outra maneira seriam texto estático.
 
-The :mod:`textwrap` module includes tools for formatting text from
-paragraphs by limiting the width of output, adding indentation, and
-inserting line breaks to wrap lines consistently.
+O módulo :mod:`textwrap` inclui ferramentas para formatar texto de parágrafos, limitando a largura da saída, adicionando indentação, e inserindo quebras de linha para envolver as linhas de maneira consistente.
 
-The standard library includes two modules for comparing text
-values that go beyond the built-in equality and sort comparison supported by
-string objects.  :mod:`re` provides a complete regular expression
-library, implemented in C for speed.  Regular expressions are
-well suited for finding substrings within a larger data set, comparing
-strings against a pattern more complex than another fixed string, and
-mild parsing.
+A biblioteca padrão inclui dois módulos para comparação de valores de texto que vão além da comparação de igualdade e ordenação embutida suportada por objetos de sequência de caracteres. :mod:`re` fornece uma biblioteca de expressão regular completa, implementada em C para maior velocidade.  As expressões regulares são adequadas para encontrar subsequências de caracteres dentro dum conjunto de dados maior, comparar sequências de caracteres contra um padrão mais complexo do que outra sequência de caracteres fixa e análise sintática suave.
 
-:mod:`difflib`, in contrast, computes the actual differences
-between sequences of text in terms of the parts added, removed, or
-changed.  The output of the comparison functions in :mod:`difflib` can
-be used to provide more detailed feedback to the user about where changes
-occur in two inputs, how a document has changed over time, and so on.
+:mod:`difflib`, em contraste, calcula as diferenças reais entre sequências de texto em termos das partes adicionadas, removidas, ou alteradas. A saída das funções de comparação em :mod:`difflib` pode ser usada para fornecer uma resposta mais detalhada ao utilizador sobre onde ocorrem as alterações em duas entradas, como um documento foi alterado ao longo do tempo, e assim por diante.
 
 .. toctree::
    :maxdepth: 1
